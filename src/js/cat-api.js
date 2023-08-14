@@ -12,7 +12,7 @@ export function fetchBreeds() {
       }
       return response.data;
   });
-}
+};
 
 export function fetchCatByBreed(breedId) {
     const url = `https://api.thecatapi.com/v1/images/search?breed_ids=${breedId}`;
@@ -24,4 +24,4 @@ export function fetchCatByBreed(breedId) {
             console.log(error.message);
             throw error;
         });
-}
+};

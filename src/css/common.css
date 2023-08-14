@@ -1,0 +1,21 @@
+.loader {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cat-info {
+    display: none;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+
+.error {
+    display: none;
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
